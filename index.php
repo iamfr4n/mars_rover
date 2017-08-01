@@ -1,6 +1,3 @@
-<?php
-	//~ print_r($_POST);
-?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -78,12 +75,6 @@
 	</body>
 </html>
 <script type="text/javascript">
-	$(function() {
-		//~ drawGrid('8,8');
-		//~ setRover('1,2,E');
-		//~ moveRover('8,8','1,2,E','MMLMRMMRRMML');
-	});
-	
 	function processFile() {
 		var file_data = $('#f_file').prop('files')[0];   
 		var form_data = new FormData();                  
